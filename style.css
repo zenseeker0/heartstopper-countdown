@@ -15,10 +15,65 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #fff;
+    /* White text color for the header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow for better visibility */
+    background: linear-gradient(90deg, #fdd835, #2196F3, #4CAF50);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#timer {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #fff;
+    /* White text color for the timer */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow for better visibility */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* Text color for better contrast with the background */
+}
+
+.countdown {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black background */
+}
+
+h1 {
+    color: #fff;
+    /* White text color for the header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow for better visibility */
 }
 
 #timer {
     font-size: 36px;
     margin-top: 20px;
 }
+
+/* Optional: Add some styles to the character images */
+img {
+    border-radius: 50%;
+    /* Round the character images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Add a subtle shadow to the images */
+}
+
