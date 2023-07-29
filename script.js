@@ -13,7 +13,7 @@ function updateCountdown() {
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
         document.getElementById("timer").innerHTML = `
-            ${days}:${hours}:${minutes}:${seconds}
+            ${days}d ${hours}h ${minutes}m ${seconds}s
         `;
     }
 }
