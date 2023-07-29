@@ -1,3 +1,5 @@
+// Trying to trigger SCM
+
 const targetDate = new Date("2023-08-03T18:00:00"); // Replace with your target date and time (e.g., 2023-12-31T23:59:59)
 
 function updateCountdown() {
